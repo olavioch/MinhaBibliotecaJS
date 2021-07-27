@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+.filho{
+	height:300px;
+}
+img{
+	height:inherit;
+}
+.cubeface {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  box-shadow: inset 0 0 12px 0px #585858;
+}

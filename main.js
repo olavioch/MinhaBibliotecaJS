@@ -1,0 +1,1 @@
+cubeGenerator("scene");
