@@ -28,12 +28,12 @@ function cubeGenerator(id){
 	//html
 	printId(id,
 	`<div id="cube">
-			<div class="cubeface" id="face-front">front</div>
-			<div class="cubeface" id="face-back">back</div>
-			<div class="cubeface" id="face-right">right</div>
-			<div class="cubeface" id="face-left">left</div>
-			<div class="cubeface" id="face-top">top</div>
-			<div class="cubeface" id="face-bottom">bottom</div>
+			<div id="${cubeConfig[0].nome}">${cubeConfig[0].conteudo}</div>
+			<div id="${cubeConfig[1].nome}">${cubeConfig[1].nome}</div>
+			<div id="${cubeConfig[2].nome}">${cubeConfig[2].nome}</div>
+			<div id="${cubeConfig[3].nome}">${cubeConfig[3].nome}</div>
+			<div id="${cubeConfig[4].nome}">${cubeConfig[4].nome}</div>
+			<div id="${cubeConfig[5].nome}">${cubeConfig[5].nome}</div>
 	</div>`
 	);
 	//css
